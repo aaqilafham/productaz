@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "eu-west-2"
+}
+
 variable "ssensitive" {
   sensitive = true
   default = "Welcome@890"
