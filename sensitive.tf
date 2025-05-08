@@ -1,7 +1,5 @@
 provider "aws" {
-  region = "eu-west-2"
-  access_key = "AKIA4IM3HQN7JITJIPEB"
-  secret_key = "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"
+  
 }
 
 variable "ssensitive" {
